@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="application.h" />
+    <ClInclude Include="dx12Device.h" />
+    <ClInclude Include="develop\logger.h">
+      <Filter>develop</Filter>
+    </ClInclude>
+    <ClInclude Include="core.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="application.cpp" />
+    <ClCompile Include="dx12Device.cpp" />
+    <ClCompile Include="develop\logger.cpp">
+      <Filter>develop</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="develop">
+      <UniqueIdentifier>{01681735-26bf-457a-b223-ac9362501376}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

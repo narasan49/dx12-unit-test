@@ -1,0 +1,6 @@
+﻿  pch.cpp
+  main.cpp
+D:\VSProjects\test-cpp-project\DX12WithTest\main.cpp(6,2): error C2653: 'develop': is not a class or namespace name
+D:\VSProjects\test-cpp-project\DX12WithTest\main.cpp(6,11): error C3861: 'DebugPrint': identifier not found
+D:\VSProjects\test-cpp-project\DX12WithTest\main.cpp(8,13): error C2653: 'module': is not a class or namespace name
+D:\VSProjects\test-cpp-project\DX12WithTest\main.cpp(8,34): error C3861: 'instance': identifier not found
