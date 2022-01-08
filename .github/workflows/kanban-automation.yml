@@ -11,4 +11,5 @@ jobs:
         with:
           project: Board
           column: In Progress
-          repo-token: ${{ secrets.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 }}
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+
