@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links: 
+  - name: Feature Request
+    about: Suggest an idea for this project
+    url: https://github.com/narasan49/dx12-unit-test/issues/new?projects=narasan49%2fdx12-unit-test%2f1&assignees=&labels=enhancement&template=feature_request.md&title=%5B新規・改善%5D
+  - name: Bug report
+    about: Create a report to help us improve
+    url: https://github.com/narasan49/dx12-unit-test/issues/new?projects=narasan49%2fdx12-unit-test%2f1&assignees=&labels=bug&template=bug_report.md&title=%5B不具合%5D
