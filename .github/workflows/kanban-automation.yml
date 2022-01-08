@@ -10,6 +10,6 @@ jobs:
       - uses: alex-page/github-project-automation-plus@5bcba1c1c091a222584d10913e5c060d32c44044
         with:
           project: Board
-          column: In Progress
+          column: In progress
           repo-token: ${{ secrets.GHPROJECT_TOKEN }}
 
