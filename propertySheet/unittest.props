@@ -3,8 +3,10 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
+    <OutDir>$(SolutionDir)build\output\$(Platform)\$(Configuration)\test\</OutDir>
+    <IntDir>$(SolutionDir)build\intermediate\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
     <IncludePath>$(SolutionDir)modules\$(ProjectName.SubString(0,$(ProjectName.Substring(4).Length)));$(IncludePath)</IncludePath>
-    <LibraryPath>$(OutDir.Substring(0, $(OutDir.Substring(5).Length)))\;$(LibraryPath)</LibraryPath>
+    <LibraryPath>$(OutDir.SubString(0, $(OutDir.SubString(5).Length)))$(ProjectName.SubString(0, $(ProjectName.SubString(4).Length)))\;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <Link>
